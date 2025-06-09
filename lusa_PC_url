@@ -1,0 +1,16 @@
+[
+    {
+         "gamename": "133-COINCOMBO-MONKEY",
+        "url": "https://osmclient-c.bewen.me/?token=ee984f59fca5331ae77b00ca753eeade-321784&platform=50&mode=live&language=zh_cn&studioid=cp&lang=en_us&username=cplusa02&device=mobile&gameid=osmcoincombo",
+        "rtmp": "133-COINCOMBO-MONKEY",
+        "rtmp_url": "rtmp://13.213.93.21:1888/live/COINCOMBOMONKEY_MAIN",
+        "game_title_code": "873-COINCOMBO-0133"
+    },
+    {
+         "gamename": "Peackack-0119",
+        "url": "https://osmclient-c.bewen.me/?token=4ee7e8e06173fb2d7ab1c512ea419224-321812&platform=pc&mode=live&language=zh_cn&studioid=cp&gameid=osmtcjl&lang=en_us&username=cplusa03&device=mobile",
+        "rtmp": "Peackack-0119",
+        "rtmp_url": "rtmp://13.213.93.21:1888/live/COINCOMBOPEACOCK_MAIN",
+        "game_title_code": "873-COINCOMBO-0119"
+    }
+]
