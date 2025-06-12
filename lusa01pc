@@ -269,7 +269,7 @@ signal.signal(signal.SIGINT, handle_interrupt)
 
 if __name__ == "__main__":
     try:
-        with open("game_config.json", "r", encoding="utf-8") as f:
+        with open("lusa_PC_url.json", "r", encoding="utf-8") as f:
             game_config = json.load(f)
 
         threads = []
