@@ -7,15 +7,15 @@ import time, math
 # --- 啟動並打開頁面 ---
 options = webdriver.ChromeOptions()
 # 明確指定 chromedriver 的路徑，這比相對路徑更穩定
-svc = Service("/Users/qa-1/Downloads/chromedriver-mac-arm64/chromedriver")
+svc = Service("C:\Program Files\Google\Chrome\Application")
 options.add_argument("--window-size=1920,1080")
 driver = webdriver.Chrome(service=svc, options=options)
 driver.get(
     "https://osmpc-c.bewen.me/"
-    "?token=da7ebb611b280c80a0931c14397bc4d1-199469"
+    "?token=cd26ec7579708ee07708d9198e92034a-329065"
     "&platform=pc&mode=live&language=zh_cn"
-    "&studioid=cp&gameid=osmjjbxgrand"
-    "&lang=en_us&username=cposm002&device=pc"
+    "studioid=cp&gameid=osmbbhl"
+    "lang=en_us&username=cplusa08&device=pc"
 )
 
 # --- 更可靠的等待加載機制 ---
