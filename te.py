@@ -10,7 +10,7 @@ svc = Service("/Users/qa-1/Downloads/chromedriver-mac-arm64/chromedriver")
 options.add_argument("--window-size=1920,1080")
 driver = webdriver.Chrome(service=svc, options=options)
 driver.get(
-    "https://osmclient-c.bewen.me/?token=427d47a0bafb61226d57f83e1ffffba5-199469&platform=pc&mode=live&language=zh_cn&studioid=cp&gameid=osmdfdc&lang=en_us&username=cposm002&device=pc"
+    "https://osmclient-c.bewen.me/?token=2f55eccbb7d46e9c2cbe16d210d0a6f5-321858&platform=pc&mode=live&language=zh_cn&studioid=cp&gameid=osmlionsreward&lang=en_us&username=cplusa06&device=pc"
 )
 
 # 等待加载
